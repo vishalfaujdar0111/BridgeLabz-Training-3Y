@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #eee;
+}
+
+header {
+    padding: 20px;
+    background: #8b4513;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section {
+    height: 500px;
+    padding: 40px;
+    border-bottom: 3px solid white;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.one {
+    background: linear-gradient(to right, #ffd6a5, #f4a261);
+    background-attachment: fixed;
+}
+
+.two {
+    background: radial-gradient(circle, #fff3b0, #e9c46a);
+    background-attachment: fixed;
+}
+
+.three {
+    background: #f5d0a9;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    color: white;
+}

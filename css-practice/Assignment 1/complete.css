@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    color: #222;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding: 15px 30px;
+    background: white;
+    border-bottom: 1px solid #aaa;
+    outline: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #222;
+}
+
+.hero {
+    position: relative;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=70");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.about {
+    position: relative;
+    padding: 60px 10%;
+    display: flex;
+    gap: 30px;
+}
+
+.about div, .about img {
+    width: 50%;
+}
+
+.about img {
+    border: 5px solid white;
+    box-shadow: 2px 2px 8px #aaa;
+}
+
+.services {
+    padding: 50px 10%;
+    background: #eee;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    gap: 20px;
+}
+
+.service-list div {
+    flex: 1;
+    padding: 25px;
+    background: white;
+    border: 1px solid #aaa;
+}
+
+.contact {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    padding: 10px 25px;
+    background: #333;
+    color: white;
+    border: 0;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    .about, .service-list {
+        flex-direction: column;
+    }
+
+    .about div, .about img {
+        width: 100%;
+    }
+}

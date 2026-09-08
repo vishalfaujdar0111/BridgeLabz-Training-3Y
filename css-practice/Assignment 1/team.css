@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #eeeeee;
+}
+
+main {
+    width: 90%;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 25px;
+    margin: 10px;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #aaa;
+}
+
+.lead {
+    background: #dceeff;
+    border: 2px solid #4285f4;
+}
+
+@media (max-width: 600px) {
+    .team {
+        flex-direction: column;
+    }
+}
