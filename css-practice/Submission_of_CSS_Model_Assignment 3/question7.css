@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: #fafafa;
+    color: #333;
+}
+
+header, footer {
+    background: #424242;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+article {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+.article-text {
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+/* Custom styles for HTML text elements */
+mark {
+    background: #ffe082;
+    color: #5d4037;
+}
+
+strong {
+    color: #1565c0;
+}
+
+em {
+    color: #8e24aa;
+}
+
+/* Pseudo-elements for emphasis */
+article p::first-letter {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.article-text::first-line {
+    font-weight: bold;
+}

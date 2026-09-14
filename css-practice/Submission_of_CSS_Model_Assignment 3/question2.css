@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+    text-align: center;
+}
+
+header, footer {
+    background: #263238;
+    color: white;
+    padding: 15px;
+}
+
+/* Flexbox centers the boxes horizontally and vertically */
+.container {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow: auto;
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    background: #ffcc80;
+}
+
+.box2 {
+    width: 50%;
+    min-height: 120px;
+    max-width: 400px;
+    background: #90caf9;
+}
+
+.box3 {
+    width: 180px;
+    height: 20vh;
+    max-width: 250px;
+    background: #a5d6a7;
+    overflow: auto;
+    font-size: 18px;
+}
