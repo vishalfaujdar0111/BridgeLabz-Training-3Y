@@ -1,0 +1,65 @@
+/* Global styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 22px;
+    background: #172554;
+    color: white;
+}
+
+/* Three principle boxes using Grid */
+.principles {
+    width: min(1100px, 90%);
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.principle {
+    padding: 28px;
+    min-height: 250px;
+    border-radius: 14px;
+    background: white;
+    box-shadow: 0 7px 18px #0002;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.principle:hover {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    transform: translateY(-6px);
+}
+
+.principle code {
+    display: block;
+    margin-top: 20px;
+    padding: 12px;
+    background: #e2e8f0;
+    color: #1e293b;
+    border-radius: 7px;
+    overflow-wrap: anywhere;
+}
+
+.principle:hover code {
+    background: #ffffff;
+    color: #1e293b;
+}
+
+/* Single column below 600px */
+@media (max-width: 600px) {
+    .principles {
+        grid-template-columns: 1fr;
+    }
+}

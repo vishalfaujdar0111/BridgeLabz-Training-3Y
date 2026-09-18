@@ -1,0 +1,123 @@
+/* Apply consistent box sizing */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #eef2ff;
+    color: #1e293b;
+}
+
+/* Main dashboard uses CSS Grid */
+.dashboard {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+/* Header spans the content area */
+.dashboard-header {
+    grid-column: 1 / -1;
+    padding: 22px 30px;
+    background: #312e81;
+    color: white;
+    animation: loadIn 0.7s ease-in-out both;
+}
+
+.dashboard-header h1 {
+    margin: 0 0 6px;
+}
+
+/* Sidebar */
+.sidebar {
+    padding: 25px 20px;
+    background: #1e293b;
+    color: white;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.sidebar a:hover {
+    background: #475569;
+}
+
+/* Main content cards */
+.main-content {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.info-card {
+    padding: 25px;
+    background: white;
+    border-radius: 13px;
+    box-shadow: 0 6px 16px #0002;
+    animation: loadIn 0.7s ease-in-out both;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px #0003;
+}
+
+/* Simple load animation */
+@keyframes loadIn {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Below 750px, sidebar moves above content */
+@media (max-width: 750px) {
+    .dashboard {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr;
+    }
+
+    .sidebar {
+        order: 2;
+    }
+
+    .main-content {
+        order: 3;
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-header {
+        order: 1;
+    }
+
+    .sidebar nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
