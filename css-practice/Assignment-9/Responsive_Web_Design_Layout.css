@@ -1,0 +1,87 @@
+/* Global styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background: #eef2ff;
+    color: #1e293b;
+}
+
+/* Header uses Flexbox */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 7%;
+    background: #312e81;
+    color: white;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Three feature boxes in one row */
+.features {
+    flex: 1;
+    width: min(1100px, 90%);
+    margin: auto;
+    padding: 45px 0;
+    display: flex;
+    gap: 25px;
+}
+
+.feature-box {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 7px 18px #0002;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f172a;
+    color: white;
+}
+
+/* Stack boxes below 750px */
+@media (max-width: 750px) {
+    .site-header {
+        flex-direction: column;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+}

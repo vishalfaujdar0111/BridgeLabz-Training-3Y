@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+header, footer {
+    background: #212121;
+    color: white;
+    padding: 15px;
+}
+
+/* Flexbox keeps the cards in one row */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 230px;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.card h2 {
+    text-shadow: 2px 2px 4px #999;
+}
+
+.card1 {
+    box-shadow: 3px 3px 10px #aaa;
+}
+
+.card2 {
+    box-shadow: 5px 5px 15px #888;
+}
+
+.card3 {
+    box-shadow: 0 8px 25px #999;
+}
+
+/* Cards move up on hover */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px #777;
+}

@@ -1,0 +1,64 @@
+/* Global setup */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 22px;
+    background: #1e293b;
+    color: white;
+}
+
+/* Desktop: four columns */
+.cards {
+    width: min(1100px, 90%);
+    margin: 45px auto;
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    flex: 1;
+    padding: 25px;
+    min-height: 180px;
+    border-radius: 12px;
+    background: #dbeafe;
+    box-shadow: 0 6px 16px #0002;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    background: #bfdbfe;
+    transform: translateY(-5px);
+}
+
+/* Tablet: two columns */
+@media (max-width: 900px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 0 0 calc(50% - 12px);
+    }
+}
+
+/* Mobile: one column */
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1;
+    }
+}

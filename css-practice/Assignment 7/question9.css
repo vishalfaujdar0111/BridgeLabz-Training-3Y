@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e3f2fd;
+}
+
+header, footer {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.form-box {
+    width: 350px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #aaa;
+}
+
+/* Uniform spacing between form elements */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #90a4ae;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Outline changes when input gets focus */
+input:focus {
+    outline: 3px solid #42a5f5;
+    outline-offset: 3px;
+}
+
+/* Different outline style for textarea */
+textarea:focus {
+    outline: 3px dashed #66bb6a;
+    outline-offset: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    background: #1976d2;
+    color: white;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 3px dotted #f57c00;
+    outline-offset: 3px;
+}

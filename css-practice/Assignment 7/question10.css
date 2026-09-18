@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #263238;
+    padding: 10px;
+    gap: 5px;
+}
+
+/* Navigation link styling */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 1px solid #607d8b;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+    background: #546e7a;
+    border-color: white;
+}
+
+/* Active link has a different background */
+nav a.active {
+    background: #1976d2;
+    border-bottom: 4px solid #ffca28;
+}
+
+main {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: #263238;
+    color: white;
+    padding: 15px;
+}
+
+/* Stack navbar vertically on smaller screens */
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        width: auto;
+    }
+}

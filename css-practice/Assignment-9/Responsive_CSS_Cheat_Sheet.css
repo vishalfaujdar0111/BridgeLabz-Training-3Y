@@ -1,0 +1,78 @@
+/* Global page setup */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 22px;
+    background: #172554;
+    color: white;
+}
+
+/* Grid creates 2–3 columns on larger screens */
+.cheat-sheet {
+    width: min(1100px, 90%);
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.topic {
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px #0002;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.topic:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px #0003;
+}
+
+.topic h2 {
+    margin-top: 0;
+}
+
+.topic code {
+    display: block;
+    padding: 12px;
+    margin-top: 15px;
+    background: #e2e8f0;
+    border-radius: 7px;
+    overflow-wrap: anywhere;
+}
+
+/* Stack the topics below 700px */
+@media (max-width: 700px) {
+    .cheat-sheet {
+        grid-template-columns: 1fr;
+    }
+
+    .topic {
+        display: grid;
+        grid-template-columns: 130px 1fr;
+        gap: 12px 18px;
+        align-items: start;
+    }
+
+    .topic h2 {
+        grid-row: span 2;
+        margin: 0;
+    }
+
+    .topic p,
+    .topic code {
+        margin: 0;
+    }
+}

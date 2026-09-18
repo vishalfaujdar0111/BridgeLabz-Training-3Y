@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f1f8e9;
+    text-align: center;
+}
+
+header, footer {
+    background: #33691e;
+    color: white;
+    padding: 15px;
+}
+
+.content {
+    padding: 30px;
+}
+
+/* Attribute selector: selects input elements with type text */
+input[type="text"] {
+    border: 3px solid blue;
+}
+
+/* Attribute selector: selects links beginning with https */
+a[href^="https"] {
+    color: green;
+    font-weight: bold;
+}
+
+/* :hover changes an element when mouse is over it */
+li:hover {
+    background: #c5e1a5;
+}
+
+/* :focus styles the selected input */
+input:focus {
+    outline: 3px solid orange;
+}
+
+/* :nth-child selects a particular child */
+li:nth-child(2) {
+    color: red;
+}
+
+/* Child combinator > selects direct children */
+.content > h2 {
+    text-decoration: underline;
+}
+
+/* Descendant combinator selects any p inside content */
+.content p {
+    font-size: 18px;
+}
+
+/* Adjacent sibling + selects the next element */
+h2 + ul {
+    border: 2px solid #555;
+}
+
+/* General sibling ~ selects later siblings */
+h2 ~ .links {
+    margin-top: 20px;
+}
+
+/* Pseudo-element before adds content before an element */
+.note::before {
+    content: "Note: ";
+    font-weight: bold;
+}
+
+/* Pseudo-element after adds content after an element */
+.note::after {
+    content: " ✓";
+    color: green;
+}
+
+ul {
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin: 8px;
+}

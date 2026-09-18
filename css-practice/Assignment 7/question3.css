@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    z-index: 2;
+}
+
+main {
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+section {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.linear {
+    background: linear-gradient(120deg, #42a5f5, #7e57c2);
+    background-attachment: fixed;
+}
+
+.radial {
+    background: radial-gradient(circle, #ffca28, #ef6c00);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #eeeeee;
+}
+
+header, footer {
+    background: #37474f;
+    color: white;
+    padding: 15px;
+}
+
+.transform-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 140px;
+}
+
+.box {
+    height: 100px;
+    background: #64b5f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+
+/* Each box demonstrates one transformation */
+.rotate:hover {
+    transform: rotate(15deg);
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.translate:hover {
+    transform: translateY(-20px);
+}
+
+.skew:hover {
+    transform: skew(10deg, 5deg);
+}
