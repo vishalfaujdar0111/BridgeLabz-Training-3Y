@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f3f5f9; padding: 35px 16px; }
+.container { max-width: 600px; margin: auto; background: white; padding: 28px; border-radius: 12px; }
+textarea { width: 100%; min-height: 150px; padding: 12px; border: 1px solid #bbb; border-radius: 7px; resize: vertical; font: inherit; }
+#counter { color: #26834a; font-weight: bold; }
+#counter.warning { color: #d69b00; }
+#counter.danger { color: #d32626; }
+button { padding: 10px 18px; border: 0; border-radius: 6px; background: #2457c5; color: white; cursor: pointer; }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom JavaScript Dropdown</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Custom Dropdown</h1>
+    <div class="dropdown" id="dropdown">
+      <button id="dropdownButton" type="button" aria-expanded="false">Select a course ▾</button>
+      <ul id="dropdownOptions" hidden>
+        <li><button type="button" data-value="Computer Science">Computer Science</button></li>
+        <li><button type="button" data-value="Information Technology">Information Technology</button></li>
+        <li><button type="button" data-value="Electronics">Electronics</button></li>
+        <li><button type="button" data-value="Mechanical">Mechanical</button></li>
+      </ul>
+    </div>
+    <p id="selection">Selected course: None</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

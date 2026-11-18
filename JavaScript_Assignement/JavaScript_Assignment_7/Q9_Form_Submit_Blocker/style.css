@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f3f5f9; padding: 35px 16px; }
+.container { max-width: 520px; margin: auto; background: white; padding: 28px; border-radius: 12px; }
+label { display: block; margin: 13px 0 6px; font-weight: bold; }
+input { width: 100%; padding: 11px; border: 1px solid #bbb; border-radius: 6px; }
+.error { display: block; min-height: 18px; color: #c32626; font-size: 13px; }
+button { margin-top: 15px; padding: 11px 20px; border: 0; border-radius: 6px; background: #2457c5; color: white; cursor: pointer; }
+#successMessage { color: #168044; font-weight: bold; }
