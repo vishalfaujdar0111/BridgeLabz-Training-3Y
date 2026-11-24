@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Q1 - Real-Time Live Search</title><link rel="stylesheet" href="../styles.css"></head>
+<body><main>
+<header><h1>Real-Time Product Search</h1><p class="muted">Search products by name or category as you type.</p></header>
+<div class="toolbar"><label for="search">Search products</label><input id="search" type="search" placeholder="Try headphones or audio" autocomplete="off"></div>
+<p id="loading" class="muted" hidden>Loading products…</p><p id="message" aria-live="polite"></p><section id="results" class="results" aria-live="polite"></section>
+</main>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="app.js"></script></body></html>

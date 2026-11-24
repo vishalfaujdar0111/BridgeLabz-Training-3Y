@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aarav"
+    },
+    {
+      "id": 2,
+      "name": "Diya"
+    },
+    {
+      "id": 3,
+      "name": "Kabir"
+    },
+    {
+      "id": 4,
+      "name": "Anaya"
+    },
+    {
+      "id": 5,
+      "name": "Vivaan"
+    }
+  ],
+  "orders": [
+    {
+      "id": 101,
+      "userId": 1,
+      "total": 1299
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "total": 899
+    },
+    {
+      "id": 103,
+      "userId": 3,
+      "total": 2499
+    },
+    {
+      "id": 104,
+      "userId": 4,
+      "total": 799
+    },
+    {
+      "id": 105,
+      "userId": 5,
+      "total": 1599
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Headphones"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch"
+    },
+    {
+      "id": 3,
+      "name": "Speaker"
+    },
+    {
+      "id": 4,
+      "name": "Laptop Stand"
+    },
+    {
+      "id": 5,
+      "name": "USB-C Hub"
+    }
+  ]
+}

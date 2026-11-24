@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Riya Sharma",
+      "email": "riya@example.com",
+      "course": "BCA"
+    },
+    {
+      "id": 2,
+      "name": "Arjun Patel",
+      "email": "arjun@example.com",
+      "course": "BSc IT"
+    },
+    {
+      "id": 3,
+      "name": "Meera Singh",
+      "email": "meera@example.com",
+      "course": "MCA"
+    },
+    {
+      "id": 4,
+      "name": "Dev Kumar",
+      "email": "dev@example.com",
+      "course": "BCA"
+    },
+    {
+      "id": 5,
+      "name": "Sara Khan",
+      "email": "sara@example.com",
+      "course": "BSc IT"
+    }
+  ]
+}

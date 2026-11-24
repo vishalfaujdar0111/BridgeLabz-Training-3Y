@@ -1,0 +1,7 @@
+Timetable API
+-----------
+From the project root run:
+npm run q5
+
+This starts this question's db.json only, on port 3005.
+Open Q5_Timetable/index.html in your browser.

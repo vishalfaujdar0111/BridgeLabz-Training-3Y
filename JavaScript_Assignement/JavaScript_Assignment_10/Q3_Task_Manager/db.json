@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Prepare project proposal",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Review lecture notes",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Organize study desk",
+      "priority": "low",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "Submit assignment",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "Read API documentation",
+      "priority": "medium",
+      "completed": true
+    },
+    {
+      "id": 6,
+      "title": "Back up project files",
+      "priority": "low",
+      "completed": false
+    }
+  ]
+}

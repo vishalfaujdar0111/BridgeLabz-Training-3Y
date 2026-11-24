@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 2499,
+      "image": "https://placehold.co/160x120?text=Headphones",
+      "category": "Audio"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 3999,
+      "image": "https://placehold.co/160x120?text=Watch",
+      "category": "Wearables"
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "price": 1799,
+      "image": "https://placehold.co/160x120?text=Speaker",
+      "category": "Audio"
+    },
+    {
+      "id": 4,
+      "name": "Laptop Stand",
+      "price": 899,
+      "image": "https://placehold.co/160x120?text=Stand",
+      "category": "Accessories"
+    },
+    {
+      "id": 5,
+      "name": "USB-C Hub",
+      "price": 1299,
+      "image": "https://placehold.co/160x120?text=USB-C+Hub",
+      "category": "Accessories"
+    },
+    {
+      "id": 6,
+      "name": "Mechanical Keyboard",
+      "price": 3299,
+      "image": "https://placehold.co/160x120?text=Keyboard",
+      "category": "Accessories"
+    }
+  ]
+}

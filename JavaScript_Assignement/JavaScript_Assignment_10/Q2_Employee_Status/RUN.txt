@@ -1,0 +1,7 @@
+Employee Status API
+-----------
+From the project root run:
+npm run q2
+
+This starts this question's db.json only, on port 3002.
+Open Q2_Employee_Status/index.html in your browser.

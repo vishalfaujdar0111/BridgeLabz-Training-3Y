@@ -1,0 +1,17 @@
+{
+  "name": "assignment-10-apis-endpoints",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Six independent JSON Server APIs for Assignment 10",
+  "scripts": {
+    "q1": "json-server --watch Q1_Live_Search/db.json --port 3001",
+    "q2": "json-server --watch Q2_Employee_Status/db.json --port 3002",
+    "q3": "json-server --watch Q3_Task_Manager/db.json --port 3003",
+    "q4": "json-server --watch Q4_Multi_API_Dashboard/db.json --port 3004",
+    "q5": "json-server --watch Q5_Timetable/db.json --port 3005",
+    "q6": "json-server --watch Q6_User_Registration/db.json --port 3006"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}

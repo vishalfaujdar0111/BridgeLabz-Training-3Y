@@ -1,0 +1,7 @@
+Live Search API
+-----------
+From the project root run:
+npm run q1
+
+This starts this question's db.json only, on port 3001.
+Open Q1_Live_Search/index.html in your browser.

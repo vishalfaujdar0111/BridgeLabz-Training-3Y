@@ -1,0 +1,7 @@
+User Registration API
+-----------
+From the project root run:
+npm run q6
+
+This starts this question's db.json only, on port 3006.
+Open Q6_User_Registration/index.html in your browser.

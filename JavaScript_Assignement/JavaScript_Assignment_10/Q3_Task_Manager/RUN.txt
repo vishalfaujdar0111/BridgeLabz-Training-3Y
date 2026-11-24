@@ -1,0 +1,7 @@
+Task Manager API
+-----------
+From the project root run:
+npm run q3
+
+This starts this question's db.json only, on port 3003.
+Open Q3_Task_Manager/index.html in your browser.
