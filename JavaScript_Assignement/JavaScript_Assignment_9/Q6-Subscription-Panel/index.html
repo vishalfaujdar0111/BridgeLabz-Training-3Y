@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Event Subscription Panel | Assignment 9</title>
+  <link rel="stylesheet" href="../styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header>
+  <p class="muted">Assignment 9 · jQuery</p>
+  <h1>Event Subscription Panel</h1>
+  <p class="subtitle">A small subscription manager with dynamically added topics and removable handlers.</p>
+</header>
+<main>
+<section class="panel"><h2>Manage subscriptions</h2><p>Turn notifications on or off, add topics, or remove a topic.</p>
+<button id="subscribe">Subscribe</button><button id="unsubscribe" class="secondary">Unsubscribe</button>
+<ul id="topic-list"><li><label><input type="checkbox" class="topic" checked> Product updates</label> <button class="remove-topic danger secondary">Remove</button></li><li><label><input type="checkbox" class="topic" checked> Weekly digest</label> <button class="remove-topic danger secondary">Remove</button></li><li><label><input type="checkbox" class="topic" checked> Learning resources</label> <button class="remove-topic danger secondary">Remove</button></li><li><label><input type="checkbox" class="topic" checked> Event invitations</label> <button class="remove-topic danger secondary">Remove</button></li><li><label><input type="checkbox" class="topic" checked> Special offers</label> <button class="remove-topic danger secondary">Remove</button></li></ul>
+<label for="new-topic">New topic</label> <input id="new-topic" placeholder="e.g. Product tutorials"><button id="add-topic">Add topic</button>
+<p id="status" class="status" aria-live="polite"></p></section>
+</main>
+<footer>Assignment 9 · Individual question demonstration</footer>
+</body>
+</html>

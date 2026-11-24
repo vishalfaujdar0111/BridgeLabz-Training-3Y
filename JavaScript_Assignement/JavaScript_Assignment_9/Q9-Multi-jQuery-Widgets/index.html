@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Multi-jQuery Widgets | Assignment 9</title><link rel="stylesheet" href="../styles.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>var jqOne = jQuery.noConflict(true);</script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>var jqTwo = jQuery.noConflict(true);</script>
+<script defer src="script.js"></script></head><body><header><p class="muted">Assignment 9 · jQuery</p><h1>Multi-jQuery Widgets</h1><p class="subtitle">Two isolated jQuery versions operate on one dashboard.</p></header><main><section><h2>Dashboard widgets</h2>
+<div class="widget" id="carousel"><h3>Carousel</h3><p class="slide-text">Slide 1: Welcome to the dashboard.</p><button id="next-slide">Next slide</button></div>
+<div class="widget" id="notice"><h3>Notifications</h3><p>Click to open a notification modal.</p><button id="open-modal">Open notification</button></div>
+<div class="grid"><div class="widget active-widget" title="Active analytics widget"><h3>Analytics</h3><p>Hover to see a tooltip.</p></div><div class="widget" title="Team activity widget"><h3>Team Activity</h3><p>Hover to see a tooltip.</p></div><div class="widget" title="Reports widget"><h3>Reports</h3><p>Hover to see a tooltip.</p></div></div>
+<div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" style="display:none" class="panel"><h3 id="modal-title">Notification</h3><p>You have a new dashboard notification.</p><button id="close-modal">Close</button></div>
+<p id="version-status" class="muted"></p></section></main><footer>Assignment 9 · Individual question demonstration</footer></body></html>

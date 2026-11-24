@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Members Directory | Assignment 9</title>
+  <link rel="stylesheet" href="../styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header>
+  <p class="muted">Assignment 9 · jQuery</p>
+  <h1>Team Members Directory</h1>
+  <p class="subtitle">Explore department hierarchy, direct reports, contact details, and sibling selection.</p>
+</header>
+<main>
+<section><h2>People directory</h2><section class="department"><h3 class="department-title">Engineering</h3><button class="manager-button">Highlight manager reports</button><ul><li class="employee" data-manager="Maya Chen"><span class="employee-name">Maya Chen</span> — Engineering Manager<span class="contact"> · maya@example.com</span></li><li class="employee" data-manager="Maya Chen"><span class="employee-name">Arjun Patel</span> — Frontend Developer<span class="contact"> · arjun@example.com</span></li><li class="employee" data-manager="Maya Chen"><span class="employee-name">Sara Khan</span> — Backend Developer<span class="contact"> · sara@example.com</span></li></ul></section><section class="department"><h3 class="department-title">Marketing</h3><button class="manager-button">Highlight manager reports</button><ul><li class="employee" data-manager="Noah Reed"><span class="employee-name">Noah Reed</span> — Marketing Manager<span class="contact"> · noah@example.com</span></li><li class="employee" data-manager="Noah Reed"><span class="employee-name">Lina Das</span> — Content Specialist<span class="contact"> · lina@example.com</span></li><li class="employee" data-manager="Noah Reed"><span class="employee-name">Omar Ali</span> — SEO Analyst<span class="contact"> · omar@example.com</span></li></ul></section>
+<button id="random">Select random employee</button><button id="collapse" class="secondary">Collapse / Expand Engineering team</button></section>
+</main>
+<footer>Assignment 9 · Individual question demonstration</footer>
+</body>
+</html>
