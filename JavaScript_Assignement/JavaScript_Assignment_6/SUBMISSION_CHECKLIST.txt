@@ -1,0 +1,11 @@
+ASSIGNMENT 6 — SUBMISSION CHECKLIST
+
+[ ] Extract the ZIP archive.
+[ ] Open the Assignment_6_Async_Programming_JS folder in VS Code.
+[ ] Open index.html with Live Server or a browser.
+[ ] Run Q1 through Q10.
+[ ] For Q6, make sure the computer is connected to the internet.
+[ ] Check the browser console for console.log() and console.table() output.
+
+All 10 questions have separate JavaScript files.
+No npm install is needed.

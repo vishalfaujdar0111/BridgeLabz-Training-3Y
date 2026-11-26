@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 6 — Async Programming with JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">JavaScript · Assignment 6 ·</p>
+    <h1>Async Programming with JavaScript</h1>
+    <p>Ten practical demonstrations covering callbacks, Promises, async/await, the event loop, and API requests.</p>
+    <div class="actions">
+      <button id="runAll">Run all demos</button>
+      <button class="secondary" id="clearAll">Clear outputs</button>
+    </div>
+    <p class="note">Some demonstrations include intentional random failures. Run them again to see different outcomes.</p>
+  </header>
+
+  <main>
+    <section class="question">
+      <div class="heading"><span>Q1</span><h2>The Startup Morning: Async Coffee Maker</h2></div>
+      <p>Promise-based boiling, brewing, and pouring with random failure handling.</p>
+      <pre id="out-q1" class="output">Run Q1 to see the output.</pre>
+      <button data-run="q1">Run Q1</button>
+    </section>
+    <section class="question">
+      <div class="heading"><span>Q2</span><h2>Task Scheduler: Micro vs Macro Challenge</h2></div>
+      <p>Compare synchronous logs, a Promise microtask, and a setTimeout macrotask.</p>
+      <pre id="out-q2" class="output">Run Q2 to see the output.</pre>
+      <button data-run="q2">Run Q2</button>
+    </section>
+    <section class="question">
+      <div class="heading"><span>Q3</span><h2>Bug Tracker: Callback to Promise Migration</h2></div>
+      <p>Convert a callback API into getBugs(), display results, and handle simulated failures.</p>
+      <pre id="out-q3" class="output">Run Q3 to see the output.</pre>
+      <button data-run="q3">Run Q3</button>
+    </section>
+    <section class="question">
+      <div class="heading"><span>Q4</span><h2>DevOps Delay: Async Timeout Race</h2></div>
+      <p>Use Promise.all() and Promise.race() for two deployment servers.</p>
+      <pre id="out-q4" class="output">Run Q4 to see the output.</pre>
+      <button data-run="q4">Run Q4</button>
+    </section>
+    <section class="question">
+      <div class="heading"><span>Q5</span><h2>Frontend Rush: Avoiding Callback Hell</h2></div>
+      <p>Compare nested callbacks with a readable async/await pipeline.</p>
+      <pre id="out-q5" class="output">Run Q5 to see the output.</pre>
+      <button data-run="q5">Run Q5</button>
+    </section>
+    <section class="question wide">
+      <div class="heading"><span>Q6</span><h2>E-Commerce Dashboard: Product Card Fetcher</h2></div>
+      <p>Fetch products from Fake Store API, log title/price/image, and render product cards.</p>
+      <pre id="out-q6" class="output">Run Q6 to fetch products from the API.</pre>
+      <div id="products" class="products" aria-live="polite"></div>
+      <button data-run="q6">Load products</button>
+    </section>
+    <section class="question">
+      <div class="heading"><span>Q7</span><h2>The Lazy Loader: Promise Combinator Practice</h2></div>
+      <p>Use Promise.allSettled(), random rejection, and elapsed-time measurement.</p>
+      <pre id="out-q7" class="output">Run Q7 to see the output.</pre>
+      <button data-run="q7">Run Q7</button>
+    </section>
+    <section class="question">
+      <div class="heading"><span>Q8</span><h2>Order Processing Flow: Async Retry Mechanism</h2></div>
+      <p>Attempt order submission up to three times, then handle final failure.</p>
+      <pre id="out-q8" class="output">Run Q8 to see the output.</pre>
+      <button data-run="q8">Run Q8</button>
+    </section>
+    <section class="question">
+      <div class="heading"><span>Q9</span><h2>Debugging the Event Loop</h2></div>
+      <p>Predict and verify the order of synchronous code, Promise microtasks, and timers.</p>
+      <pre id="out-q9" class="output">Run Q9 to see the output.</pre>
+      <button data-run="q9">Run Q9</button>
+    </section>
+    <section class="question">
+      <div class="heading"><span>Q10</span><h2>The Final Delivery: Async Pipeline Debugger</h2></div>
+      <p>Run a five-step food delivery pipeline with random delay and failure at each stage.</p>
+      <pre id="out-q10" class="output">Run Q10 to see the output.</pre>
+      <button data-run="q10">Run Q10</button>
+    </section>
+  </main>
+  <footer>Assignment 6 · Core JavaScript (ES6+) · No framework required</footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/q1.js"></script>
+  <script src="js/q2.js"></script>
+  <script src="js/q3.js"></script>
+  <script src="js/q4.js"></script>
+  <script src="js/q5.js"></script>
+  <script src="js/q6.js"></script>
+  <script src="js/q7.js"></script>
+  <script src="js/q8.js"></script>
+  <script src="js/q9.js"></script>
+  <script src="js/q10.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
