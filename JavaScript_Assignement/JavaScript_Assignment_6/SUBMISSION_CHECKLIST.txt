@@ -1,6 +1,5 @@
 ASSIGNMENT 6 — SUBMISSION CHECKLIST
 
-[ ] Extract the ZIP archive.
 [ ] Open the Assignment_6_Async_Programming_JS folder in VS Code.
 [ ] Open index.html with Live Server or a browser.
 [ ] Run Q1 through Q10.
