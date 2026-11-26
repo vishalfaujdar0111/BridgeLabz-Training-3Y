@@ -1,0 +1,8 @@
+ASSIGNMENT 8 SUBMISSION
+1. Extract the ZIP file.
+2. Open index.html in Chrome or through VS Code Live Server.
+3. Click Run all demonstrations.
+4. Confirm output is visible under Q1 through Q9.
+5. Submit the ZIP or extracted folder as instructed.
+
+No npm install or JSON Server is needed for this assignment.
